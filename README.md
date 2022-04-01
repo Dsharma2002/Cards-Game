@@ -1,3 +1,6 @@
+This App is a flash card game app that uses React for basic setup.
+Edit 1: Made cards shuffle and appear on the screen
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
