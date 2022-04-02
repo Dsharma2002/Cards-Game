@@ -18,15 +18,39 @@
 
 img {
   max-width: 100vw;
-  height: 250px;
+  height: 200px;
 }
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(8, auto);
   padding: 10px;
   grid-gap: 20px;
   margin: 10px;
 }
 
+.card {
+  position: relative;
+}
+
+.card .front {
+  position: absolute;
+  transform: rotateY(90deg);
+}
+
+.flipped .front {
+  transform: rotateY(0deg);
+}
+
+.turn-counter {
+  font-size: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.gameOver {
+  font-size: 3rem;
+}
 

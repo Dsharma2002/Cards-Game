@@ -1,6 +1,6 @@
 This App is a flash card game app that uses React for basic setup.
 Edit 1: Made cards shuffle and appear on the screen
-Edit 2: Player clicks on card and views cover and actual content of card.
+Edit 2:
 
 # Getting Started with Create React App
 

@@ -1,12 +1,20 @@
 import React from "react";
 
-function Card({ card }) {
+function Card({ card, handleChoice, flipped, chosen }) {
+
+    const handleClick = () => {
+        if (!chosen) {
+            handleChoice(card)
+        }
+    }
 
     return (
-        <div className='card' key={card.id}>
-            <div>
-                <img src={card.src} className="front" alt="front card" />
-                <img src="/images/black_joker.png" className='back' alt="back card" />
+        <div className='card'>
+            <div className={flipped ? "flipped" : ""}>
+                <img src={card.src} className="front"/>
+                <img src="/images/black_joker.png"
+                    className='back'
+                    onClick={handleClick} />
             </div>
         </div>
     );
