@@ -1,6 +1,8 @@
 This App is a flash card game app that uses React for basic setup.
 Edit 1: Made cards shuffle and appear on the screen
 Edit 2: Make user visit cards and check pairing.
+Edit 3: Number of turns by the user is updated and matched cards are always shown. Unmatched proceed to code behaviour
+Edit 4: Deselect wide variations of card to unable user chose more than 2 cards inside of timeout.
 
 # Getting Started with Create React App
 
